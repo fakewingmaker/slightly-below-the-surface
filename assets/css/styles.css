@@ -1,17 +1,38 @@
+/* setting the typeface files */
+@font-face {
+  font-family: plantin light;
+  src: url(../fonts/Plantin-MT-Light.woff);
+}
+
 /* Reset styles */
-* {
+/* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
   
   /* Global styles */
+
   body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    line-height: 1.5;
+    font-family: plantin light, serif;
+    font-size: 5VW;
+    letter-spacing: -.05rem;
+    line-height: 1;
     background-color: #f0f0f0;
     color: #333;
+  }
+
+  div {
+    margin: 1rem;
+    padding: .5rem;
+  }
+
+  P {
+    margin: .125rem;
+  }
+  
+  img {
+    width: 90vw;
   }
   
   a {
@@ -22,8 +43,12 @@
   a:hover {
     text-decoration: underline;
   }
+
+  .indent {
+    text-indent: 10vw;
+  }
   
-  /* Header styles */
+  /* Header styles *
   header {
     background-color: #fff;
     border-bottom: 1px solid #ccc;
@@ -36,7 +61,7 @@
     color: #333;
   }
   
-  /* Navigation styles */
+  /* Navigation styles *
   nav {
     display: flex;
     justify-content: space-between;
@@ -62,7 +87,7 @@
     background-color: #eee;
   }
   
-  /* Main content styles */
+  /* Main content styles *
   main {
     max-width: 800px;
     margin: 0 auto;
@@ -75,11 +100,11 @@
     margin-bottom: 20px;
   }
   
-  p {
+  /*p {
     margin-bottom: 20px;
   }
   
-  /* Footer styles */
+  /* Footer styles *
   footer {
     background-color: #333;
     color: #fff;
@@ -89,5 +114,5 @@
   
   .footer-text {
     font-size: 14px;
-  }
+  }/
   
