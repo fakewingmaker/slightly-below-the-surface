@@ -25,6 +25,7 @@
     font-family: plantin light, serif;
     font-size: 5VW;
     letter-spacing: -.05rem;
+    font-stretch: condensed;
     line-height: 1;
     background-color: #f0f0f0;
     color: #333;
@@ -60,8 +61,8 @@
   .popup {
     position: fixed;
     /* inset: 0; inset is all border, margin and padding all together */
-    width: 95vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     background-color: tomato;
     top: 0;
     left: 0;
