@@ -17,7 +17,7 @@ function handlePopup() {
                 }
             )
         }, {
-            threshold: 0.1
+            threshold: 0.075
         }
     )
     if(images.length) images.forEach(img=> observer.observe(img))

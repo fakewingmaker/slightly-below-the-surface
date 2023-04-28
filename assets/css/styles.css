@@ -27,14 +27,9 @@
     letter-spacing: -.05rem;
     font-stretch: condensed;
     line-height: 1;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #eeece6;
+    color: rgb(64, 64, 64);
     position:relative;
-  }
-
-  div {
-    margin: 1rem;
-    padding: .5rem;
   }
 
   P {
@@ -42,7 +37,9 @@
   }
   
   img {
-    width: 90vw;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
   }
   
   a {
@@ -60,14 +57,16 @@
 
   .popup {
     position: fixed;
-    /* inset: 0; inset is all border, margin and padding all together */
+    inset: 0; 
+    /* inset is all border, margin and padding all together */
     width: 100vw;
     height: 100vh;
-    background-color: tomato;
-    top: 0;
-    left: 0;
+    background-color: rgba(85,85,85,.7);
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 5px 10px;
+    align-items: center;
+    justify-content: center;
     /* add animation to have the different emerging effect */
-    
   }
 
  
