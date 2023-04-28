@@ -69,6 +69,54 @@
     /* add animation to have the different emerging effect */
   }
 
+  .icon {
+    position: absolute;
+    width: 30vw;
+    height: auto;
+    padding: 5vw;
+    animation: float1 5s infinite ease-in-out, float2 6s infinite ease-in-out, float3 7s infinite ease-in-out;
+  }
+  
+  @keyframes float1 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(calc(80% - 40px), calc(60% - 30px));
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(calc(40% - 20px), calc(80% - 40px));
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+  @keyframes float3 {
+    0% {
+      transform: translate(0, 0);
+    }
+    50% {
+      transform: translate(calc(60% - 30px), calc(40% - 20px));
+    }
+    100% {
+      transform: translate(0, 0);
+    }
+  }
+  
+
+  
+  
+
  
 /* 
 the list of things i need to do
